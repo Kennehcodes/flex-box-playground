@@ -1,0 +1,92 @@
+/**colors**/
+.wrapme {
+     background-color: rgb(81, 146, 79);
+      outline: solid 2px rgb(14, 39, 13); 
+      padding: 10px; 
+}
+
+
+.hbox { background-color: peachpuff;
+     outline: solid 2px salmon;
+    padding: 10px; }
+
+.hboxbaby { background-color: rgb(255, 185, 228);
+    outline: solid 2px rgb(179, 36, 20); padding: 10px; }
+    
+.item { background-color: rgb(209, 160, 175);
+        outline: solid 2px rgb(63, 14, 18);
+        padding: 10px; }
+ 
+.header,
+.footer  {
+     background-color: rgb(77, 135, 173); 
+     outline: solid 2px rgb(16, 49, 71);
+     padding: 10px; 
+}
+
+.hboxbaby { background-color: rgb(255, 185, 228);ng: 10px; }
+
+.hboxbaby { background-color: rgb(255, 185, 228);
+            outline: solid 2px rgb(179, 36, 20);
+        padding: 10px; }
+
+.fbox.box4,
+.fbox.box7 {padding: 10px;  background-color: plum; outline: solid 2px mediumslateblue;}
+
+.fbox.box5, 
+.fbox.box6 { padding: 10px; background-color: orange; outline: solid 2px rgb(70, 56, 31); }
+
+
+
+
+
+
+
+
+.wrapme,
+.box2, 
+.header,
+.footer  { display: flex;  }
+
+.wrapme { 
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: ;
+    min-width: 100vh;
+    padding: 10px;
+gap: 10px;
+/*space for items*/
+}
+/*.hero { flex: 1 auto; line-height: 10px ;}
+.itemthree, .itemfour { min-width: 50% ; flex-shrink: 1  ; flex: 1 auto;}
+*/
+
+.itemthree {align-self: flex-end;}
+.itemfour { align-self: center;}
+
+.box2, 
+.header, 
+.footer {gap: 10px; justify-content: space-between; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
